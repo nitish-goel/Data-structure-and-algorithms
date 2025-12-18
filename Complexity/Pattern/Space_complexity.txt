@@ -1,0 +1,77 @@
+What Space Complexity Actually Means
+
+Space Complexity = Extra memory used by the algorithm
+
+👉 It counts only the auxiliary space, not the result/output.
+
+Auxiliary space includes:
+
+Variables (i, j)
+
+Arrays / objects created inside the algorithm
+
+Recursion stack
+
+Why Printing Is NOT Counted in Space Complexity
+
+When you do:
+
+System.out.print("*");
+
+What happens internally:
+
+The character is immediately sent to the output stream
+
+It is not stored in your program’s memory
+
+Once printed → memory is released
+
+So:
+
+*****
+
+
+is not stored anywhere in RAM by your algorithm.
+
+Think of It Like This 🧠
+
+Imagine writing stars on a whiteboard:
+
+You write *
+
+It stays on the board
+
+You didn’t store it in your pocket
+
+💡 Space complexity only counts what’s in your pocket (memory)
+Not what’s written outside (output).
+
+Example Comparison
+❌ This DOES affect space complexity
+char[] arr = new char[num * num];
+
+
+➡ Uses extra memory → O(n²) space
+
+✅ This does NOT affect space complexity
+for (...) {
+    System.out.print("*");
+}
+
+
+➡ Prints directly → O(1) space
+
+Output Size vs Space Complexity
+Concept	         Counted?     	Why
+Output size	     ❌ No	      Not stored in memory
+Print statements ❌ No	      Direct stream output
+Variables	     ✅ Yes	      Stored in RAM
+Arrays / Lists	 ✅ Yes	      Stored in RAM
+Recursion stack	 ✅ Yes	      Stored in RAM
+
+Common Interview Line (Use This ✅)
+“Space complexity measures auxiliary memory used by the algorithm, not the memory required to store the output.”
+
+Final Takeaway ⭐
+    Printing affects time complexity
+    Printing does NOT affect space complexity
