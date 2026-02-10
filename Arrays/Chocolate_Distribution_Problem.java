@@ -21,3 +21,5 @@ public class Chocolate_Distribution_Problem{
         System.out.println(diff);
     }
 };
+
+// Time Complexity  = O(n log n)

@@ -1,0 +1,74 @@
+Compare with other complexities 📊
+    Big-O	    Growth	        Speed
+    O(1)	    Constant	    ⚡ Fastest
+    O(log n)	Logarithmic	    🚀 Very fast
+    O(n)	    Linear	        🙂
+    O(n log n)	Linear × log	👍
+    O(n²)	    Quadratic	    🐌 Slow
+
+O(n log n) means =======>
+
+    O(n log n) is a way to describe how fast an algorithm grows as the input size n increases.
+    This is called Big-O notation.
+
+    What does O(n log n) mean?
+
+    n → number of elements (input size)
+
+    log n → logarithmic growth (usually base 2, but base doesn’t matter in Big-O)
+
+    👉 O(n log n) means:
+
+    When the input size doubles, the work increases a little more than double, but much less than n².
+
+    Simple intuition 🧠
+
+    Imagine:
+
+    n = 8
+    log₂ 8 = 3
+    Operations ≈ 8 × 3 = 24
+
+    n = 16
+    log₂ 16 = 4
+    Operations ≈ 16 × 4 = 64
+
+    So when input doubles (8 → 16), work increases ~2.6×, not 4×.
+
+
+O(log n) means ========>
+
+    O(log n) means the algorithm’s running time grows very slowly as the input size n increases.
+    It’s one of the fastest time complexities.
+
+    What does O(log n) actually mean?
+
+    n = number of input elements
+
+    log n = logarithm (usually base 2 in CS, but base doesn’t matter in Big-O)
+
+    👉 O(log n) means:
+
+    Each step reduces the problem size significantly (often by half).
+
+    Simple intuition 🧠
+
+    If n doubles, the work increases by just 1 extra step.
+
+    Example:
+
+    n	log₂ n
+    8	3
+    16	4
+    32	5
+    1,000,000	~20
+
+    Even with 1 million elements, only ~20 steps are needed 😮
+
+    Why does O(log n) happen?
+
+        Because the algorithm:
+
+        Divides the input size every step
+
+        Doesn’t scan all elements
