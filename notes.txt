@@ -1,0 +1,15 @@
+⭐  📘 What is Lexicographic?
+        Lexicographic order means dictionary order — the way words or sequences are arranged when you look them up in a dictionary.
+
+    🧠 One-Line Interview Definition
+        Lexicographic order is an ordering of sequences where elements are compared from left to right, and the first differing element determines the order, just like words in a dictionary.
+
+        ⚔️ Lexicographic vs Numeric — Side by Side
+            Feature	                     Lexicographic Order	    Numeric Order
+            Comparison style	          Left-to-right	             Whole value
+            Used for	                  Strings, permutations	     Numbers
+            Example                       [1, 3, 2] < [2, 1, 1]	     132 < 211
+            Used in next permutation?     ✅ YES	                   ❌ NO
+
+        Lexicographic → "100" < "20"
+        Numeric        → 100 > 20

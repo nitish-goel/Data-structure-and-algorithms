@@ -45,3 +45,5 @@ public class Next_Permutation{
         System.out.println("Integer Array: " + Arrays.toString(arr));
     }
 };
+// Time complexity: O(n)
+// Space Complexity: O(1)
