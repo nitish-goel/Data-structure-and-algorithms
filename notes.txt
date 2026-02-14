@@ -13,3 +13,19 @@
 
         Lexicographic → "100" < "20"
         Numeric        → 100 > 20
+
+⭐  Sum of n numbers is n(n+1)/2
+⭐  Sum of n^2 numbers is n(n+1)(2n+1)/6
+
+⭐  Find pairs of digits: factorial of number of digits     
+                        for exp:
+                                there are 3 digits 2,4,6 
+                                factorial of 3 = 6 pairs
+                                therefore 6 pairs are there: 2,4,6
+                                                             2,6,4
+                                                             4,2,6
+                                                             4,6,2
+                                                             6,2,4
+                                                             6,4,2
+
+⭐
