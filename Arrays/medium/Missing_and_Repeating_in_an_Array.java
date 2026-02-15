@@ -1,5 +1,7 @@
 import java.util.*;
-public class Missing_and_Repeating_in_an_Array{
+// GFG
+// Similar Question Solved leetcode-268 Missing Number
+public class Missing_and_Repeating_in_an_Array{ 
     // public static void findMissingAndRepeating(int []arr){ // brute force approach
     //     int miss = 0;
     //     int twice = 0;
@@ -14,7 +16,7 @@ public class Missing_and_Repeating_in_an_Array{
     //     System.out.println("Missing is: "+ miss);
     //     System.out.println("Twice is: "+ twice);
     // }
-    public static void findMissingAndRepeating(int []arr){ // 
+    public static void findMissingAndRepeating(int []arr){ // not better approach
       
         boolean[] num = new boolean[arr.length + 1];
         // System.out.println(Arrays.toString(trk));

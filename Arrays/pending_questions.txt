@@ -1,0 +1,3 @@
+medium Questions:
+    Missing_and_Repeating_in_an_Array (not optimized yet)
+    Kth_Largest_Element_in_an_Array (brute force approach used) 
