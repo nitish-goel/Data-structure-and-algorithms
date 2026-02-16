@@ -1,7 +1,7 @@
     Data Structures
         Arrays
         Linked-list
-        Hashing
+        HashTable
                 HashSet => HashSet is a important data structure because of its time complexity.
                     it take constant time in major functions which are important in any data structure.
                 Insert/ Add - O(1)
